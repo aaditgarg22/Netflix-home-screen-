@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>learning forms tag</h1>
+    <form action="submit.html" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" placeholder="Enter your name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password">
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+
+    <p>Gender:</p>
+    <input type="radio" id="m" name="gender" value="male">
+    <label for="m">Male</label>
+    <input type="radio" id="f" name="gender" value="female">
+    <label for="f">Female</label>
+
+    <p>Hobbies:</p>
+    <input type="checkbox" id="h1" name="hobby" value="music">
+    <label for="h1">Music</label>
+    <input type="checkbox" id="h2" name="hobby" value="sports">
+    <label for="h2">Sports</label>
+
+    <label for="city">City:</label>
+    <select id="city" name="city">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+    </select>
+
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="message" rows="4" cols="30"></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+    
+</body>
+</html>
